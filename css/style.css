@@ -119,7 +119,18 @@
         padding-top: 2rem;
          background-color: #a398a3;}
 
-.rowfooter{width: 100%;
+.rowfooter{max-width: 100%;
     height: 90%;
      background-color: #aba8ac;}
 
+.colfooter{background-color: #8ee2ab;
+    width: 30%;
+    height: 200px;
+    display: inline-block;
+}
+
+.col1{background-color:#d5b37b;
+    width: 17%;
+    height: 200px ;
+    display: inline-block;}
+    
