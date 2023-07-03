@@ -110,17 +110,17 @@
 
 .containerfooter{ background-color: #4475fe;
     width: 100%;
-    height: 300px;
+    height: 400px;
     }
 
 .secfooter{width: 80%;
-        height: 90%;
+        height: 80%;
         margin: auto;
         padding-top: 2rem;
          background-color: #a398a3;}
 
 .rowfooter{max-width: 100%;
-    height: 90%;
+    height: 80%;
      background-color: #aba8ac;}
 
 .colfooter{background-color: #8ee2ab;
@@ -133,4 +133,19 @@
     width: 17%;
     height: 200px ;
     display: inline-block;}
-    
+
+.bottomfooter{width: 100%;
+    height: 2rem;
+   display: flex;
+   justify-content:space-between;
+   background-color:#aba8ac;}
+
+.space3{background-color: #d5b37b;
+    border: 1px dashed black;
+    width: 10rem;
+    height: 2rem;}
+
+.space4{background-color: #d5b37b;
+    border: 1px dashed black;
+    width: 10rem;
+    height: 2rem;}
