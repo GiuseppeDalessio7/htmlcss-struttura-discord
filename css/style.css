@@ -65,11 +65,61 @@
 
 .col{background-color: #8ee2ab;
     padding-top: 2rem;
+    width: ( 100% / 2 - 4rem);
     width: 100%;
     height: 90%;}
 
 .card{background-color: #85c0c6;
-    max-width: 100%;
+    width: 50%;
+    height: 80%;
     margin-left: 2rem;
     margin-right: 2rem;
-    height: 90%;}
+    display: inline-block;
+    }
+
+.card2{background-color: #85c0c6;
+        width: 40%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        height: 80%;
+        display: inline-block;}   
+        
+.card3 {background-color: #85c0c6;
+    width: 30%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    height: 80%;
+    display: inline-block;}
+
+
+.card4 {background-color: #85c0c6;
+    width: 60%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    height: 80%;
+    display: inline-block;}
+
+.onlycontainer{
+    width: 80%;
+    height: 400px;
+    margin:  auto;
+    padding-top: 2rem;
+    background-color: #fbdb9e;
+    margin-bottom: 40px;}
+
+
+.containerfooter{ background-color: #4475fe;
+    width: 100%;
+    height: 300px;
+    }
+
+.secfooter{width: 80%;
+        height: 90%;
+        margin: auto;
+        padding-top: 2rem;
+         background-color: #a398a3;}
+
+.rowfooter{width: 100%;
+    height: 90%;
+     background-color: #aba8ac;}
+
