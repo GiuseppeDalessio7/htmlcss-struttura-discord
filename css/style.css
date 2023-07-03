@@ -67,37 +67,37 @@
     padding-top: 2rem;
     width: ( 100% / 2 - 4rem);
     width: 100%;
-    height: 90%;}
+    height: 90%;
+    display: flex;}
+
 
 .card{background-color: #85c0c6;
+    display: flex;
+    justify-content: center;
     width: 50%;
     height: 80%;
     margin-left: 2rem;
     margin-right: 2rem;
-    display: inline-block;
     }
 
 .card2{background-color: #85c0c6;
         width: 40%;
         margin-left: 2rem;
         margin-right: 2rem;
-        height: 80%;
-        display: inline-block;}   
+        height: 80%;}   
         
 .card3 {background-color: #85c0c6;
     width: 30%;
     margin-left: 2rem;
     margin-right: 2rem;
-    height: 80%;
-    display: inline-block;}
+    height: 80%;}
 
 
 .card4 {background-color: #85c0c6;
     width: 60%;
     margin-left: 2rem;
     margin-right: 2rem;
-    height: 80%;
-    display: inline-block;}
+    height: 80%;}
 
 .onlycontainer{
     width: 80%;
@@ -121,18 +121,21 @@
 
 .rowfooter{max-width: 100%;
     height: 80%;
-     background-color: #aba8ac;}
+     background-color: #aba8ac;
+     display: flex;
+    margin: 1px;}
 
 .colfooter{background-color: #8ee2ab;
-    width: 30%;
+    width: 25%;
     height: 200px;
-    display: inline-block;
+    margin: 1px;
 }
 
 .col1{background-color:#d5b37b;
-    width: 17%;
+    width: 18%;
     height: 200px ;
-    display: inline-block;}
+    margin-left: 5px;
+   }
 
 .bottomfooter{width: 100%;
     height: 2rem;
